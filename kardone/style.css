@@ -476,6 +476,11 @@ h3,
 
 
 /* 超連結設定 */
+.header_wrap a,
+.page_container a {
+    color: #000;
+}
+
 .slide_caption a:hover,
 .btn_container a:hover {
     background-color: #ff0;
