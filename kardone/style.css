@@ -542,3 +542,8 @@ div.product_next:hover,
     background-color: #fff;
     justify-content: space-around;
 }
+
+.pic_item_wrap span {
+    text-decoration: line-through;
+    color: #888;
+}
