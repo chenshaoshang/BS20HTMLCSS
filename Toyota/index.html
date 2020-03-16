@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .warp {
+            width: 960px;
+            /* display: flex; */
+            margin: auto;
+            flex-wrap: wrap;
+
+        }
+
+        .item1,
+        .item2,
+        .item3,
+        .item4,
+        .item5 {
+            width: 960px;
+            display: flex;
+            flex-wrap: wrap;
+            /* background-color: #f0a; */
+        }
+
+        .car {
+            z-index: 1;
+            margin: auto;
+            position: relative;
+        }
+
+        .mark1 {
+            top: 45%;
+            left: 94%;
+            position: absolute;
+        }
+
+        .mark2 {
+            top: 45%;
+            right: 93%;
+            position: absolute;
+        }
+
+        .title {
+            z-index: 2;
+            position: relative;
+            top: 255px;
+            right: 50px;
+        }
+
+        .title1 {
+            z-index: 2;
+            position: relative;
+            top: 305px;
+            left: 730px;
+        }
+
+        .title2 {
+            z-index: 2;
+            position: relative;
+            top: 242px;
+            left: -52px;
+        }
+
+        .title3 {
+            z-index: 2;
+            position: relative;
+            top: 305px;
+            left: 730px
+        }
+
+        .main {
+            z-index: 2;
+            position: relative;
+            bottom: 30px;
+        }
+
+        .main1 {
+            z-index: 2;
+            position: relative;
+            bottom: 30px;
+            left: 405px;
+        }
+
+        .main2 {
+            z-index: 2;
+            position: relative;
+            bottom: 30px;
+            left: -7px;
+        }
+
+        .main3 {
+            z-index: 2;
+            position: relative;
+            bottom: 30px;
+            left: 30px;
+        }
+
+        .shadow1 {
+            width: 439px;
+            height: 290px;
+            background-color: rgba(200, 200, 200, .2);
+            position: relative;
+            left: 115px;
+            top: 300px;
+            z-index: 0;
+        }
+
+        .shadow2 {
+            width: 518px;
+            height: 441px;
+            background-color: rgba(200, 200, 200, .2);
+            position: relative;
+            left: 46px;
+            top: 345px;
+            z-index: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div class="warp">
+        <div class="item1">
+            <div class="title"><img src="pic/asset 57.png" alt=""></div>
+            <div class="shadow1"></div>
+            <div class="car"> <img src="pic/asset 55.png" alt="">
+                <div class="mark1"><img src="pic/asset 56.png" alt=""></div>
+            </div>
+            <div class="main "><img src="pic/asset 58.png" alt=""></div>
+        </div>
+        <div class="item2">
+            <div class="title1"><img src="pic/asset 60.png" alt=""></div>
+            <div class="shadow2"></div>
+            <div class="car"> <img src="pic/asset 59.png" alt="">
+                <div class="mark2"><img src="pic/asset 56.png" alt=""></div>
+            </div>
+            <div class="main1 "><img src="pic/asset 61.png" alt=""></div>
+        </div>
+        <div class="item3">
+            <div class="title2"><img src="pic/asset 63.png" alt=""></div>
+            <div class="shadow"></div>
+            <div class="car"> <img src="pic/asset 62.png" alt="">
+                <div class="mark1"><img src="pic/asset 56.png" alt=""></div>
+            </div>
+            <div class="main2 "><img src="pic/asset 64.png" alt=""></div>
+        </div>
+        <div class="item4">
+            <div class="title1"><img src="pic/asset 66.png" alt=""></div>
+            <div class="shadow2"></div>
+            <div class="car"> <img src="pic/asset 65.png" alt="">
+                <div class="mark2"><img src="pic/asset 56.png" alt=""></div>
+            </div>
+            <div class="main1 "><img src="pic/asset 67.png" alt=""></div>
+        </div>
+        <div class="item5">
+            <div class="title"><img src="pic/asset 69.png" alt=""></div>
+            <div class="shadow1"></div>
+            <div class="car"> <img src="pic/asset 68.png" alt="">
+                <div class="mark1"><img src="pic/asset 56.png" alt=""></div>
+            </div>
+            <div class="main3 "><img src="pic/asset 70.png" alt=""></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
