@@ -352,10 +352,12 @@ span+span time {
     font-size: 14px;
 }
 
-.news_container a {
-    color: #fff;
+.news_container h3 a:visited {
+    color: #000;
 }
-
+.txt>h3 a:hover{
+    color: #2ac5f4;
+}
 .link {
     margin-top: 60px;
 }
@@ -830,6 +832,10 @@ address~p a:hover {
     .firm_info_container .item {
         width: 25%;
         box-sizing: border-box;
+    }
+
+    .firm_info_container .item h2{
+        margin-top: 25px;
     }
 
     /* 捉雞 */
