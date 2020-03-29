@@ -16,7 +16,7 @@ i {
 
 
 .benner {
-    background: url('/greeting_image.jpg') 50% 50% no-repeat;
+    background: url('greeting_image.jpg') 50% 50% no-repeat;
     background-size: cover;
     padding: 100px 0 30px;
 }
@@ -168,7 +168,7 @@ i {
 }
 
 .promo_blocks {
-    background: url('/promo_block_img.jpg') 50% 50% no-repeat;
+    background: url('promo_block_img.jpg') 50% 50% no-repeat;
     background-size: cover;
     height: 430px;
 }
