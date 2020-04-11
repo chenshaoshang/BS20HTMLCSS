@@ -355,9 +355,11 @@ span+span time {
 .news_container h3 a:visited {
     color: #000;
 }
-.txt>h3 a:hover{
+
+.txt>h3 a:hover {
     color: #2ac5f4;
 }
+
 .link {
     margin-top: 60px;
 }
@@ -528,7 +530,7 @@ address~p a:hover {
 
     /* 導覽 */
     .nav_container nav {
-        background-color: transparent;
+        background-color: #777;
         display: none;
         position: fixed;
         top: 0;
@@ -829,12 +831,13 @@ address~p a:hover {
     .signature div:last-child {
         text-align: end;
     }
+
     .firm_info_container .item {
         width: 25%;
         box-sizing: border-box;
     }
 
-    .firm_info_container .item h2{
+    .firm_info_container .item h2 {
         margin-top: 25px;
     }
 
